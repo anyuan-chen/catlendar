@@ -7,16 +7,24 @@ export default function Navbar() {
     <div className="grid grid-cols-10 justify-center pt-5 px-5 bg-navbar">
       <SunglassesHat></SunglassesHat>
       <Link href="/home">
-        <a className="col-start-7 flex items-center justify-center">Home</a>
+        <a className="col-start-7 flex items-center justify-center text-2xl  font-bold font-display">
+          Home
+        </a>
       </Link>
       <Link href="/events">
-        <a className="flex items-center justify-center">Events</a>
+        <a className="flex items-center justify-center text-2xl font-bold font-display">
+          Events
+        </a>
       </Link>
       <Link href="/habits">
-        <a className="flex items-center justify-center">Habits</a>
+        <a className="flex items-center justify-center text-2xl font-bold font-display">
+          Habits
+        </a>
       </Link>
       <Link href="/calendar">
-        <a className="flex items-center justify-center">Calendar</a>
+        <a className="flex items-center justify-center text-2xl font-bold font-display">
+          Calendar
+        </a>
       </Link>
     </div>
   );

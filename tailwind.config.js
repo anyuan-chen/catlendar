@@ -8,6 +8,10 @@ module.exports = {
         navbar: "#FEEEF6",
       },
     },
+    fontFamily: {
+      display: ["Mondapick"],
+      body: ["Poppins"],
+    },
   },
   variants: {
     extend: {},
