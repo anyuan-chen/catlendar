@@ -16,8 +16,8 @@ export default function SunglassesHat() {
       <path
         d="M78.0342 61.1333C78.8394 62.8354 81.1744 66.045 84.0731 65.2669C86.9717 64.4888 87.8575 60.7281 87.938 58.945C88.1795 61.0523 89.339 65.2669 92.0444 65.2669C95.4262 65.2669 96.8755 63.0785 97.3587 62.1059"
         stroke="#643C22"
-        stroke-width="6.11404"
-        stroke-linecap="round"
+        strokeWidth="6.11404"
+        strokeLinecap="round"
       />
       <path
         d="M81.3071 38.0084H21.1587C23.7068 45.8194 28.0989 61.4412 49.8248 61.4412C71.5506 61.4412 81.9106 45.8194 81.3071 38.0084Z"
@@ -30,8 +30,8 @@ export default function SunglassesHat() {
       <path
         d="M21.1592 37.9151H153.325"
         stroke="black"
-        stroke-width="13.1015"
-        stroke-linecap="round"
+        strokeWidth="13.1015"
+        strokeLinecap="round"
       />
       <circle cx="88.3414" cy="55.7957" r="4.58119" fill="#643C22" />
     </svg>

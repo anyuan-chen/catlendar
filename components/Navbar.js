@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="grid grid-cols-10 justify-center pt-5 px-5 bg-navbar">
       <SunglassesHat></SunglassesHat>
-      <Link href="/home">
+      <Link href="/">
         <a className="col-start-7 flex items-center justify-center text-2xl  font-bold font-display">
           Home
         </a>

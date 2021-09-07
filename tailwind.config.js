@@ -6,11 +6,12 @@ module.exports = {
     extend: {
       colors: {
         navbar: "#FEEEF6",
+        pinkLight: "#FFDFDD",
       },
     },
     fontFamily: {
       display: ["Mondapick"],
-      body: ["Poppins"],
+      primary: ["Poppins"],
     },
   },
   variants: {
