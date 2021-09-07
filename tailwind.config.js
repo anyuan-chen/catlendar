@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         navbar: "#FEEEF6",
         pinkLight: "#FFDFDD",
+        pinkDark: "#FFCACA",
       },
     },
     fontFamily: {
