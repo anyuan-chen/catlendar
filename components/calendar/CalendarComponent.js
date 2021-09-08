@@ -4,6 +4,7 @@ import TimeBlock from "./components/timeBlock";
 export default function CalendarComponent() {
   const [schedule, setSchedule] = useState(["undefined"]);
   useEffect(() => {
+    //loads data from localstorage
     if (schedule[0] === "undefined") {
       if (localStorage.schedule === undefined) {
         localStorage.setItem(schedule, []);
@@ -12,7 +13,7 @@ export default function CalendarComponent() {
         setSchedule(JSON.parse(localStorage.schedule));
       }
     }
-
+    //converts times into corrent format
     setTimeBlocks(
       timeBlocks.map((time) => {
         let start = time;
@@ -48,5 +49,9 @@ export default function CalendarComponent() {
     21, 22, 23,
   ]);
 
-  return <div>{timeBlocks}</div>;
+  return (
+    <div className="flex items-center justify-center pt-10">
+      <div className="w-70w">{timeBlocks}</div>
+    </div>
+  );
 }
